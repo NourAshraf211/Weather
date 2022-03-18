@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="CSS/style.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="up">
+            <h1 class="header">Real-Time World Weather</h1>
+            <div class="form">
+                <input type="text" name="place" placeholder="Country, city or region">
+                <button class="btn">Go</button>
+            </div>
+            <p>There is no country (city or region) with this name</p>
+        </div>
+        <div class="down">
+            <div class="weather-box">
+                <p class="country" id="country"></p>
+                <div class="weather-info">
+                    <div class="time-local">
+                        <h1 class="time" id="time"></h1>
+                        <p class="date" id="date"></p>
+                    </div>
+                    <div class="temperature" id="temperature"></div>
+                    <div class="icon-description">
+                        <img id="icon" class="icon" src="">
+                        <span class="description" id="description"></span>
+                    </div>
+                </div>
+                <div class="more">
+                    <div class="one">
+                        <p>Wind speed</p>
+                        <span></span>
+                    </div>
+                    <div class="one">
+                        <p>Precip</p>
+                        <span></span>
+                    </div>
+                    <div class="one">
+                        <p>Pressure</p>
+                        <span></span>
+                    </div>
+                    <div class="one">
+                        <p>Humidity</p>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
